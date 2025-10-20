@@ -48,14 +48,14 @@ test/test_invert_tree.py ....                       [100%]
 ================= 4 passed in 0.05s ==================
 ```
 
-## ✅ Option B. Run Locally
+### ✅ Option B. Run Locally
 ```bash
 python3 -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 pytest -q
 ```
 
-## ✅ Option C. Quick Script
+### ✅ Option C. Quick Script
 Run all tests with a single command:
 ```bash
 bash run.sh
