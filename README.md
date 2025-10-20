@@ -1,6 +1,7 @@
 # 🌳 Invert Binary Tree (Iterative Solution)
 
-Non-recursive solution for inverting a binary tree.
+A non-recursive solution for inverting a binary tree using an iterative BFS approach.
+Implemented in Python 3.13.7, fully tested, and Docker-ready for quick verification.
 
 ---
 
@@ -24,8 +25,45 @@ This implementation uses **an iterative BFS approach**.
 - `-100 <= Node.val <= 100`
 
 ---
+## 🧪 Quick Verification (No API Required)
 
-## ⚙️ How to Run
+This project does not expose an HTTP API.
+All logic is verified through unit tests — runable via Docker or locally.
+
+⸻
+
+### ✅ Option A. Run in Docker (Recommended)
+
+No setup needed — just run:
+```bash
+docker run --rm docker.io/carollin/invert-binary-tree-iterative:py3.13.7
+```
+This image automatically runs pytest and prints test results like:
+```bash
+================= test session starts =================
+collected 4 items
+
+test/test_invert_tree.py ....                       [100%]
+
+================= 4 passed in 0.05s ==================
+```
+
+## ✅ Option B. Run Locally
+```bash
+python3 -m venv .venv && source .venv/bin/activate
+pip install -r requirements.txt
+pytest -q
+```
+
+## ✅ Option C. Quick Script
+Run all tests with a single command:
+```bash
+bash run.sh
+```
+
+---
+
+## ⚙️ How to Run Manually
 
 ### 🧩 1. Clone this repo
 ```bash
