@@ -88,6 +88,6 @@ test/    → unit tests
 .venv/   → virtual environment (ignored)
 ```
 
-Author: Carol Lin
-GitHub: https://github.com/Carol-YiYun/invert-binary-tree-iterative
+---
+### Author: Carol Lin
 
