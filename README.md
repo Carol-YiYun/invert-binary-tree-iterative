@@ -40,12 +40,20 @@ docker run --rm docker.io/carollin/invert-binary-tree-iterative:py3.13.7
 ```
 This image automatically runs pytest and prints test results like:
 ```bash
-================= test session starts =================
-collected 4 items
+============================= test session starts ==============================
+platform linux -- Python 3.13.7, pytest-8.4.2, pluggy-1.6.0 -- /usr/local/bin/python3.13
+cachedir: .pytest_cache
+rootdir: /app
+collecting ... collected 6 items
 
-test/test_invert_tree.py ....                       [100%]
+test/test_invert_tree.py::test_invert_tree_iterative[inp0-expected0] PASSED [ 16%]
+test/test_invert_tree.py::test_invert_tree_iterative[inp1-expected1] PASSED [ 33%]
+test/test_invert_tree.py::test_invert_tree_iterative[inp2-expected2] PASSED [ 50%]
+test/test_invert_tree.py::test_invert_tree_iterative[inp3-expected3] PASSED [ 66%]
+test/test_invert_tree.py::test_invert_tree_iterative[inp4-expected4] PASSED [ 83%]
+test/test_invert_tree.py::test_invert_tree_iterative[inp5-expected5] PASSED [100%]
 
-================= 4 passed in 0.05s ==================
+============================== 6 passed in 0.01s ===============================
 ```
 
 ### ✅ Option B. Run Locally
