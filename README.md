@@ -64,7 +64,9 @@ docker run --rm -it docker.io/carollin/invert-binary-tree-iterative:py3.13.7 run
 ```
 
 ### 💻 Option B. Run Locally (No Docker)
+
 ⚠️ Make sure Python 3 is installed on your machine before running the following commands.
+
 0️⃣ Set up virtual environment and install dependencies
 ```bash
 python3 -m venv .venv
